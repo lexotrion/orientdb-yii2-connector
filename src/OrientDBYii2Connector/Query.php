@@ -7,7 +7,7 @@ use yii\db\Expression;
 use yii\db\QueryInterface;
 use yii\db\QueryTrait;
 
-class Query extends yii\db\Query implements QueryInterface
+class Query extends \yii\db\Query implements QueryInterface
 {
     use QueryTrait;
     
