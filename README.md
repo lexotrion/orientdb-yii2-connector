@@ -1,4 +1,6 @@
 # orientdb-yii2-connector
+(haiflive/orientdb-yii2-connector fork)
+
 Yii2 connector to orientDB, php7
 Contains:
  - Connection
@@ -12,12 +14,12 @@ Contains:
 ###### Warning:
 > OrientDB PHP binary protocol has no PDO or Quota methods, this library can bee unsafe
 
-# composer install 
+<!-- # composer install 
 
 ```bash
 composer require "haiflive/orientdb-yii2-connector"
 ```
-
+ -->
 # Usage
 
 ## web.php:

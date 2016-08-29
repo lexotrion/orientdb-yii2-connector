@@ -1,12 +1,16 @@
 {
-    "name": "haiflive/orientdb-yii2-connector",
-    "description": "Yii2 connector to orientDB, php7, query builder, command builder",
+    "name": "lexotrion/orientdb-yii2-connector",
+    "description": "Yii2 connector to orientDB, php7, query builder, command builder (haiflive/orientdb-yii2-connector fork)",
     "type": "library",
     "require": {
-        "ostico/phporient": "v1.2.3"
+        "ostico/phporient": "^1.2"
     },
     "license": "MIT",
     "authors": [
+        {
+            "name": "lexotriob",
+            "homepage": "https://github.com/lexotrion/orientdb-yii2-connector"
+        },
         {
             "name": "haiflive",
             "homepage": "https://github.com/haiflive/orientdb-yii2-connector"

@@ -7,7 +7,7 @@ use yii\db\Expression;
 use yii\db\QueryInterface;
 use yii\db\QueryTrait;
 
-class Query extends Component implements QueryInterface
+class Query extends yii\db\Query implements QueryInterface
 {
     use QueryTrait;
     
@@ -24,6 +24,7 @@ class Query extends Component implements QueryInterface
     public $fetch_plan = '';
     public $params = [];
     
+
     public function select($columns, $option = null)
     {
         if ($columns instanceof Expression) {
